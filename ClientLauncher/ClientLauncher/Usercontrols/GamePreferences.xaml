@@ -1,0 +1,224 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="ClientLauncher.Usercontrols.GamePreferences"
+    Foreground="{x:Null}" mc:Ignorable="d">
+    <Grid>
+    	<Border BorderThickness="4" CornerRadius="10">
+    		<Grid Margin="4">
+    			<TabControl Margin="0,4,0,0" Background="#00F9F9F9" BorderThickness="4" BorderBrush="{DynamicResource LightFill}">
+    				<TabItem Header="{Binding GameClient}" FontFamily="{DynamicResource FontFamily}" Background="{DynamicResource LightAreaFill}" BorderBrush="{x:Null}" Foreground="{DynamicResource DarkText}" FontWeight="Bold">
+                        <Border Background="{DynamicResource DarkAreaFill}" BorderThickness="4" CornerRadius="{DynamicResource PrefsBorder}" BorderBrush="{DynamicResource LightFill}">
+                            <Grid Height="307.417">
+                            	<Grid.ColumnDefinitions>
+                            		<ColumnDefinition Width="0.545*"/>
+                            		<ColumnDefinition Width="0.455*"/>
+                            	</Grid.ColumnDefinitions>
+                            	<Grid.RowDefinitions>
+                            		<RowDefinition Height="0.144*"/>
+                            		<RowDefinition Height="0.085*"/>
+                            		<RowDefinition Height="0.078*"/>
+                            		<RowDefinition Height="0.078*"/>
+                            		<RowDefinition Height="0.615*"/>
+                            	</Grid.RowDefinitions>
+                                <TabControl x:Name="tcGameOptions"  BorderThickness="0" Background="#00F9F9F9" BorderBrush="{x:Null}" Grid.RowSpan="5" Grid.ColumnSpan="2">
+                                    <TabItem x:Name="tbiGraphics" Header="{Binding Graphics}" Background="{DynamicResource LightAreaFill}" FontFamily="{DynamicResource FontFamily}" BorderBrush="{x:Null}" Foreground="{DynamicResource DarkText}">
+                                        <Border Background="{DynamicResource DarkAreaFill}" BorderThickness="0,0,0,0" BorderBrush="{DynamicResource LightFill}">
+                                           
+                                                <Grid Margin="10">
+													<Grid.RowDefinitions>
+														<RowDefinition Height="0.1*" />
+														<RowDefinition Height="0.1*" />
+														<RowDefinition Height="0.1*" />
+														<RowDefinition Height="0.1*" />
+														<RowDefinition Height="0.1*" />
+														<RowDefinition Height="0.1*" />
+														<RowDefinition Height="0.1*" />
+														<RowDefinition Height="0.1*" />
+														<RowDefinition Height="0.1*" />
+														<RowDefinition Height="0.1*" />
+													</Grid.RowDefinitions>
+													<Grid.ColumnDefinitions>
+														<ColumnDefinition Width="0.5*" />
+														<ColumnDefinition Width="0.5*" />
+													</Grid.ColumnDefinitions>
+                                                    <Canvas Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Height="20">
+                                                        <CheckBox Checked="chkWindowedMode_Checked" Unchecked="chkWindowedMode_Unchecked" x:Name="chkWindowedMode" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding WindowedMode}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Height="20">
+                                                        <CheckBox Checked="chkBorderlessWindow_Checked" Unchecked="chkBorderlessWindow_Unchecked"  x:Name="chkBorderlessWindow" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" VerticalAlignment="Top" Width="15" Height="15"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding BorderlessWindow}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="5" Grid.Column="0" Margin="0" Height="20" ToolTip="0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                                        <CheckBox Checked="chkDisableBumpMapping_Checked" Unchecked="chkDisableBumpMapping_Unchecked" x:Name="chkDisableBumpMapping" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" VerticalAlignment="Top"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableBumpMapping}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="6" Grid.Column="0" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Height="20">
+                                                        <CheckBox Checked="chkDisableHardwareMouseCursor_Checked" Unchecked="chkDisableHardwareMouseCursor_Unchecked" x:Name="chkDisableHardwareMouseCursor" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" VerticalAlignment="Top"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableHardwareMouseCursor}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="7" Grid.Column="0" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Height="20">
+                                                        <CheckBox Checked="chkUseLowDetailTextures_Checked" Unchecked="chkUseLowDetailTextures_Unchecked" x:Name="chkUseLowDetailTextures" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" VerticalAlignment="Top" Canvas.Top="0.917"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding UseLowDetailTextures}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="0.458"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="8" Grid.Column="0" Margin="0" VerticalAlignment="Center" Height="20" HorizontalAlignment="Left">
+                                                        <CheckBox Checked="chkUseLowDetailNormalMaps_Checked" Unchecked="chkUseLowDetailNormalMaps_Unchecked" x:Name="chkUseLowDetailNormalMaps" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" VerticalAlignment="Top" Canvas.Top="0.917"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding UseLowDetailNormalMaps}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="0.458"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="3" Grid.Column="1" Margin="0" VerticalAlignment="Center" Height="20" HorizontalAlignment="Left">
+                                                        <CheckBox Checked="chkDisableMultiPassRendering_Checked" Unchecked="chkDisableMultiPassRendering_Unchecked" x:Name="chkDisableMultiPassRendering" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" VerticalAlignment="Top"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableMultiPassRendering}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="4" Grid.Column="1" Margin="0" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                                        <CheckBox Checked="chkDisableVSynch_Checked" Unchecked="chkDisableVSynch_Unchecked" x:Name="chkDisableVSynch" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" VerticalAlignment="Top"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableVSynch}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="-0.458"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="5" Grid.Column="1"  Margin="0" HorizontalAlignment="Left" VerticalAlignment="Center" Height="20">
+                                                        <CheckBox Checked="chkDisableFastMouseCursor_Checked" Unchecked="chkDisableFastMouseCursor_Unchecked" x:Name="chkDisableFastMouseCursor" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableFastMouseCursor}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="-0.458"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="6" Grid.Column="1"  Margin="0" VerticalAlignment="Center" Height="20" HorizontalAlignment="Left">
+                                                        <CheckBox Checked="chkSafeRenderer_Checked" Unchecked="chkSafeRenderer_Unchecked" x:Name="chkSafeRenderer" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15"/>
+                                                        <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding UseSafeRenderer}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="-0.457" d:LayoutOverrides="VerticalAlignment"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="7" Grid.Column="1"  HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Height="20">
+                                                    	<CheckBox Checked="chkConstrainMouseCursor_Checked" Unchecked="chkConstrainMouseCursor_Unchecked" x:Name="chkConstrainMouseCursor" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" VerticalAlignment="Top" Canvas.Top="0.917"/>
+                                                    	<TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding ContrainMouseCursor}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="0.458"/>
+                                                    </Canvas>
+                                                    <Canvas Grid.Row="8" Grid.Column="1"  HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" Height="20">
+                                                    	<CheckBox x:Name="chkShowDebugWindow" Checked="chkShowDebugWindow_Checked" Unchecked="chkShowDebugWindow_Unchecked" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" VerticalAlignment="Top" Canvas.Top="0.917"/>
+                                                    	<TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding ShowDebugMode}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="0.458"/>
+                                                    </Canvas>
+                                                    <ComboBox Grid.Row="0" Grid.Column="1"  DisplayMemberPath="RealDisplayName" FontSize="16" SelectionChanged="cboAdapter_SelectionChanged" x:Name="cboAdapter" Margin="0" VerticalAlignment="Top" Height="24" HorizontalAlignment="Left" Width="177.334" Background="{DynamicResource LightAreaFill}" FontFamily="{DynamicResource FontFamily}"/>
+													<TextBlock Grid.Row="0" Grid.Column="0"  x:Name="lblAdapter" Text="{Binding DisplayAdapter}" VerticalAlignment="Top" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" TextWrapping="Wrap" TextAlignment="Right" Margin="0,0,5,0" HorizontalAlignment="Right" />													
+                                                    <ComboBox Grid.Row="1" Grid.Column="1"  DisplayMemberPath="DisplayText" FontSize="16" SelectionChanged="cboResolution_SelectionChanged" x:Name="cboResolution" Margin="0" VerticalAlignment="Top" Height="24" HorizontalAlignment="Left" Width="177.334" Background="{DynamicResource LightAreaFill}" FontFamily="{DynamicResource FontFamily}"/>
+                                                    <TextBlock Grid.Row="1" Grid.Column="0"  Margin="0,0,5,0" VerticalAlignment="Top" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Text="{Binding GameResolution}" TextWrapping="Wrap" TextAlignment="Right" HorizontalAlignment="Right"/>
+                                                    <ComboBox Grid.Row="2" Grid.Column="1"  x:Name="cboShaderVersion" FontSize="16" DisplayMemberPath="DisplayText" SelectionChanged="cboShaderVersion_SelectionChanged" Margin="0,0,0,5" VerticalAlignment="Top" Height="24" HorizontalAlignment="Left" Width="177.334" Background="{DynamicResource LightAreaFill}" FontFamily="{DynamicResource FontFamily}" />
+                                                    <TextBlock Grid.Row="2"  VerticalAlignment="Top" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Text="{Binding ShaderVersion}" TextAlignment="Right" TextWrapping="Wrap" HorizontalAlignment="Right" Margin="0,0,5,5"/>
+                                                </Grid>
+                                            
+                                        </Border>
+                                    </TabItem>
+                                    <TabItem x:Name="tbiSound" Header="{Binding Sound}" Background="{DynamicResource LightAreaFill}" FontFamily="{DynamicResource FontFamily}" BorderBrush="{x:Null}" Foreground="{DynamicResource DarkText}">
+                                        <Border Background="{DynamicResource DarkAreaFill}" BorderThickness="0,4,0,0" BorderBrush="{DynamicResource LightFill}">
+                                            <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="106.247" Width="255.841">
+                                            	<Grid.RowDefinitions>
+                                            		<RowDefinition Height="0.3*"/>
+                                            		<RowDefinition Height="0.207*"/>
+                                            		<RowDefinition Height="0.349*"/>
+                                            		<RowDefinition Height="0.144*"/>
+                                            	</Grid.RowDefinitions>
+                                            	<Grid.ColumnDefinitions>
+                                            		<ColumnDefinition Width="0.391*"/>
+                                            		<ColumnDefinition Width="0.609*"/>
+                                            	</Grid.ColumnDefinitions>
+                                                <Canvas Margin="-6.005,9.175,0,0" VerticalAlignment="Top" Height="18.072" HorizontalAlignment="Left" Width="211" Grid.ColumnSpan="2"/>
+                                                <TextBlock Margin="-128.25,0,0,0" Text="{Binding MilesVersion}" TextWrapping="Wrap" Foreground="{DynamicResource LightFill}" VerticalAlignment="Top" FontWeight="Bold" Grid.Row="1" TextAlignment="Right"/>
+                                                <TextBlock Margin="0,7.334,0,8.666" Text="{Binding Speakers}" TextWrapping="Wrap" Foreground="{DynamicResource LightFill}" FontWeight="Bold" Grid.Row="2" TextAlignment="Right"/>
+                                                <ComboBox SelectionChanged="cboSpeakers_SelectionChanged" x:Name="cboSpeakers" FontSize="16" Margin="7,0,-95.159,7.291" VerticalAlignment="Bottom" Height="24" Background="{DynamicResource LightAreaFill}" Grid.Column="1" Grid.Row="2"/>
+                                                <TextBlock x:Name="lblMilesVersion" Margin="11,3.709,62.841,0" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="{DynamicResource LightFill}" Grid.Column="1" Grid.Row="1"/>
+                                                <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableAudio}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" FontWeight="Bold" Margin="-96.667,8.823,0,0.351" TextAlignment="Right"/>
+                                                <CheckBox Checked="chkDisableAudio_Checked" Unchecked="chkDisableAudio_Unchecked" x:Name="chkDisableAudio" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" HorizontalAlignment="Left" Margin="8.938,12.673,0,4.201" Grid.Column="1"/>
+                                            </Grid>
+                                        </Border>
+                                    </TabItem>
+                                    <TabItem x:Name="tbiGame" Header="{Binding Game}" Background="{DynamicResource LightAreaFill}" FontFamily="{DynamicResource FontFamily}" BorderBrush="{x:Null}" Foreground="{DynamicResource DarkText}">
+                                        <Border Background="{DynamicResource DarkAreaFill}" BorderThickness="0,4,0,0" BorderBrush="{DynamicResource LightFill}">
+                                            <Grid HorizontalAlignment="Center" Width="341.998">
+                                            	<Grid.ColumnDefinitions>
+                                            		<ColumnDefinition Width="0.244*"/>
+                                            		<ColumnDefinition Width="0.756*"/>
+                                            	</Grid.ColumnDefinitions>
+                                                <Canvas Margin="4.667,0,0,228.917" VerticalAlignment="Bottom" Width="119.333" Height="15.917" HorizontalAlignment="Left" Grid.Column="1" d:LayoutOverrides="HorizontalAlignment">
+                                                    <CheckBox Checked="chkSkipIntroSequence_Checked" Unchecked="chkSkipIntroSequence_Unchecked"  x:Name="chkSkipIntroSequence" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15"/>
+                                                    <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding SkipIntroSequence}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018"/>
+                                                </Canvas>
+                                                <Canvas Margin="4.667,57,0,0" VerticalAlignment="Top" Width="119.333" Height="15.917" HorizontalAlignment="Left" Grid.Column="1" d:LayoutOverrides="HorizontalAlignment">
+                                                    <CheckBox Checked="chkDisableCharSLOD_Checked" Unchecked="chkDisableCharSLOD_Unchecked" x:Name="chkDisableCharSLOD" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15"/>
+                                                    <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableCharSLOD}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018"/>
+                                                </Canvas>
+                                                <Canvas Margin="4.667,80.664,0,0" VerticalAlignment="Top" Width="119.333" Height="15.917" HorizontalAlignment="Left" Grid.Column="1" d:LayoutOverrides="HorizontalAlignment">
+                                                	<CheckBox Checked="chkAllowMultipleInstances_Checked" Unchecked="chkAllowMultipleInstances_Unchecked" x:Name="chkAllowMultipleInstances" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15"/>
+                                                	<TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding AllowMultipleInstances}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018"/>
+                                                </Canvas>
+                                                <TextBlock Margin="-109.333,111.289,8,0" VerticalAlignment="Top" Text="{Binding ClientLanguage}" TextWrapping="Wrap" Foreground="{DynamicResource LightFill}" TextAlignment="Right"/>
+                                                <ComboBox x:Name="cboLanguage" DisplayMemberPath="Name" SelectionChanged="cboLanguage_SelectionChanged" FontSize="16" Margin="2.998,109.625,0,0" VerticalAlignment="Top" Height="24" Background="{DynamicResource LightAreaFill}" Width="153" HorizontalAlignment="Left" Grid.Column="1"/>
+                                            </Grid>
+                                        </Border>
+                                    </TabItem>
+                                    <TabItem x:Name="tbiAdvanced" Header="{Binding Advanced}" Background="{DynamicResource LightAreaFill}" FontFamily="{DynamicResource FontFamily}" BorderBrush="{x:Null}" Foreground="{DynamicResource DarkText}">
+                                        <Border Background="{DynamicResource DarkAreaFill}" BorderThickness="0,4,0,0" BorderBrush="{DynamicResource LightFill}">
+                                            <Grid>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="0.1*" />
+													<RowDefinition Height="0.1*" />
+													<RowDefinition Height="0.1*" />
+													<RowDefinition Height="0.1*" />
+													<RowDefinition Height="0.1*" />
+													<RowDefinition Height="0.1*" />
+													<RowDefinition Height="0.1*" />
+													<RowDefinition Height="0.1*" />
+													<RowDefinition Height="0.1*" />
+													<RowDefinition Height="0.1*" />
+												</Grid.RowDefinitions>
+                                                <Canvas Grid.Row="2" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Width="119.333">
+                                                    <CheckBox Checked="chkDisableWorldPreloading_Checked" Unchecked="chkDisableWorldPreloading_Unchecked" x:Name="chkDisableWorldPreloading" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" BorderThickness="1,3,1,1"/>
+                                                    <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableWorldPreloading}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018" Margin="0,0,0,2"/>
+                                                </Canvas>
+                                                <Canvas Grid.Row="3" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Width="119.333">
+                                                    <CheckBox Checked="chkUseLowDetailCharacters_Checked" Unchecked="chkUseLowDetailCharacters_Unchecked" x:Name="chkUseLowDetailCharacters" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" BorderThickness="1,3,1,1"/>
+                                                    <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding UseLowDetailCharacters}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018" Margin="0,0,0,2"/>
+                                                </Canvas>
+                                                <Canvas Grid.Row="4" HorizontalAlignment="Center" Margin="0" Width="119.333" VerticalAlignment="Center">
+                                                    <CheckBox Checked="chkUseLowDetailMeshes_Checked" Unchecked="chkUseLowDetailMeshes_Unchecked" x:Name="chkUseLowDetailMeshes" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" BorderThickness="1,3,1,1"/>
+                                                    <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding UseLowDetailMeshes}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018" Margin="0,0,0,2"/>
+                                                </Canvas>
+                                                <Canvas Grid.Row="5" HorizontalAlignment="Center" Margin="0" Width="119.333" VerticalAlignment="Center">
+                                                    <CheckBox Checked="chkDisableTextureBaking_Checked" Unchecked="chkDisableTextureBaking_Unchecked" x:Name="chkDisableTextureBaking" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" BorderThickness="1,3,1,1"/>
+                                                    <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableTextureBaking}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018" Margin="0,0,0,2"/>
+                                                </Canvas>
+                                                <Canvas Grid.Row="6" HorizontalAlignment="Center" Margin="0" Width="119.333" VerticalAlignment="Center">
+                                                    <CheckBox Checked="chkDisableFileCaching_Checked" Unchecked="chkDisableFileCaching_Unchecked" x:Name="chkDisableFileCaching" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" BorderThickness="1,3,1,1"/>
+                                                    <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableFileCaching}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018" Margin="0,0,0,2"/>
+                                                </Canvas>
+                                                <Canvas Grid.Row="7" HorizontalAlignment="Center" Margin="0" Width="119.333" VerticalAlignment="Center">
+                                                    <CheckBox Checked="chkDisableAsynchronousLoader_Checked" Unchecked="chkDisableAsynchronousLoader_Unchecked" x:Name="chkDisableAsynchronousLoader" Content="CheckBox" Template="{DynamicResource CheckBoxControlTemplate1}" Width="15" Height="15" BorderThickness="1,3,1,1"/>
+                                                    <TextBlock MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" Text="{Binding DisableAsynchronousLoader}" TextWrapping="Wrap" FontFamily="{DynamicResource FontFamily}" FontSize="16" Foreground="{DynamicResource LightFill}" Canvas.Left="19" Canvas.Top="1.018" Margin="0,0,0,2"/>
+                                                </Canvas>
+                                            </Grid>
+                                        </Border>
+                                    </TabItem>
+                                </TabControl>
+                            </Grid>
+                        </Border>
+                    </TabItem>
+    				<TabItem Header="{Binding Launcher}" FontFamily="{DynamicResource FontFamily}" Background="{DynamicResource LightAreaFill}" BorderBrush="{x:Null}" Foreground="{DynamicResource DarkText}" FontWeight="Bold">
+                        <Border Background="{DynamicResource DarkAreaFill}" BorderThickness="4" CornerRadius="{DynamicResource PrefsBorder}" BorderBrush="{DynamicResource LightFill}">
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.5*"/>
+                                    <ColumnDefinition Width="0.5*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0.2*" />
+                                    <RowDefinition Height="0.2*" />
+                                    <RowDefinition Height="0.2*" />
+                                    <RowDefinition Height="0.2*" />
+                                    <RowDefinition Height="0.2*" />
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Column="0" Grid.Row="3" FontFamily="{DynamicResource FontFamily}" FontWeight="Bold" Foreground="{DynamicResource LightFill}" Text="{Binding GhostFont}" Margin="0,0,0,0.007" VerticalAlignment="Top" TextAlignment="Right" />
+                                <TextBlock Grid.Column="0" Grid.Row="2" FontFamily="{DynamicResource FontFamily}" FontWeight="Bold" Foreground="{DynamicResource LightFill}" Text="{Binding ColourScheme}" Margin="0,0,0,0.007" VerticalAlignment="Center" TextAlignment="Right" />
+                                <TextBlock Grid.Column="0" Grid.Row="1" FontFamily="{DynamicResource FontFamily}" FontWeight="Bold" Foreground="{DynamicResource LightFill}" VerticalAlignment="Bottom" Text="{Binding Skin}" TextAlignment="Right" Margin="0" />
+                                <ComboBox x:Name="cboGhostFont" Grid.Column="1" Grid.Row="3" DisplayMemberPath="Name" SelectionChanged="cboGhostFont_SelectionChanged" Margin="5,0,-60,0" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Background="{DynamicResource LightAreaFill}" BorderThickness="1" />
+                                <ComboBox x:Name="cboSkin" SelectionChanged="cboSkin_SelectionChanged" Grid.Column="1" Grid.Row="1" Margin="5,0,-60,0" Width="200" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="{DynamicResource LightAreaFill}" BorderThickness="1" />
+                                <ComboBox x:Name="cboPallette" SelectionChanged="cboPallette_SelectionChanged" Grid.Column="1" Grid.Row="2" DisplayMemberPath="Name" Margin="5,0,-84,0" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center" Background="{DynamicResource LightAreaFill}" BorderThickness="5,1" />
+                            </Grid>
+                        </Border>
+                    </TabItem>
+    			</TabControl>
+    		</Grid>
+    	</Border>
+            
+    </Grid>
+</UserControl>

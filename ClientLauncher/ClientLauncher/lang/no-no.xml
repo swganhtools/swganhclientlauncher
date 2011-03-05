@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language Locale="no-no" Name="Norske">
+    <FormTitle>SWG:ANH Klient Launcher</FormTitle>
+    <ShowHelp>Vis Hjelp</ShowHelp>
+    <RefreshServers>Oppdater Servere</RefreshServers>
+    <RefreshingServers>Oppdaterer - Vennligst vent</RefreshingServers>
+    <Preferences>Preferences</Preferences>
+    <GameClient>Spill Klient</GameClient>
+    <Launcher>Launcher</Launcher>
+    <Graphics>Grafikk</Graphics>
+    <DisplayAdapter>Display Adapter</DisplayAdapter>
+    <GameResolution>Spill Oppløsning</GameResolution>
+    <ShaderVersion>Vertex/Pixel Shader Versjon</ShaderVersion>
+    <WindowedMode>Vindu Modus</WindowedMode>
+    <BorderlessWindow>Kantløst vindu</BorderlessWindow>
+    <DisableBumpMapping>Slå av Bump Mapping</DisableBumpMapping>
+    <DisableHardwareMouseCursor>Slå av Hardware Mouse Cursor</DisableHardwareMouseCursor>
+    <UseLowDetailTextures>Bruk lav detaljert tekstur</UseLowDetailTextures>
+    <UseLowDetailNormalMaps>Bruk lav detaljert Normal Kart</UseLowDetailNormalMaps>
+    <DisableMultiPassRendering>Slå av Multi Pass Rendering</DisableMultiPassRendering>
+    <DisableVSynch>Slå av VSynch (Allow Tearing)</DisableVSynch>
+    <DisableFastMouseCursor>Slå av Fast Mouse Cursor</DisableFastMouseCursor>
+    <UseSafeRenderer>Bruk Safe Renderer (Treigere)</UseSafeRenderer>
+    <ContrainMouseCursor>Begrens musepeker til vinduet</ContrainMouseCursor>
+    <Sound>Lyd</Sound>
+    <DisableAudio>Slå av lyd :</DisableAudio>
+    <MilesVersion>Miles Versjon :</MilesVersion>
+    <Speakers>Høytalere :</Speakers>
+    <Game>Spill</Game>
+    <AllowMultipleInstances>Tillat Multiple Instances</AllowMultipleInstances>
+    <SkipIntroSequence>Hopp over introduksjon</SkipIntroSequence>
+    <DisableCharSLOD>Slå av Character System Level of Detail Manager</DisableCharSLOD>
+    <ClientLanguage>Språk :</ClientLanguage>
+    <Advanced>Avansert</Advanced>
+    <DisableWorldPreloading>Slå av forhønds lasting av verden</DisableWorldPreloading>
+    <UseLowDetailCharacters>Bruk lav detaljert karakterer</UseLowDetailCharacters>
+    <UseLowDetailMeshes>Bruk lav detaljert Meshes</UseLowDetailMeshes>
+    <DisableTextureBaking>Slå av tekstur Baking</DisableTextureBaking>
+    <DisableFileCaching>Slå av Fil Caching</DisableFileCaching>
+    <DisableAsynchronousLoader>Slå av Asynchronous Loader</DisableAsynchronousLoader>
+    <ChooseGalaxy>Velg galakse</ChooseGalaxy>
+    <ServerNews>Server nyheter</ServerNews>
+    <ClientPatcher>Klient oppdaterer</ClientPatcher>
+    <ChangeLanguage>Språkvalg</ChangeLanguage>
+    <GameLauncher>Start SWG</GameLauncher>
+    <ServerName>Server Navn :</ServerName>
+    <Description>Beskrivelse :</Description>
+    <ServerBuild>Build :</ServerBuild>
+    <Population>Befolkning :</Population>
+    <ServerInformation>Server Informasjon</ServerInformation>
+    <ManageCharacters>Karakter behandling</ManageCharacters>
+    <Skin>Skin :</Skin>
+    <ColourScheme>Fargestil :</ColourScheme>
+    <GhostFont>Ghost Font Navn :</GhostFont>
+    <Settings>Klient oppsett</Settings>
+    <ViewFullArticle>Les hele artikkelen</ViewFullArticle>
+    <RegistryErrorOne>Klarer ikke ø finne din SWG:ANH klient fra systemregisteret</RegistryErrorOne>
+    <RegistryErrorTwo>Vennligst pek ut installasjons mappen</RegistryErrorTwo>
+    <Patching>Oppdaterer</Patching>
+    <StandardFiles>Ser etter standard filer</StandardFiles>
+    <CustomFiles>Sjekker egne filer</CustomFiles>
+    <Server>Server</Server>
+    <Username>Brukernavn :</Username>
+    <Password>Passord :</Password>
+    <CharacterName>Navn</CharacterName>
+    <DefaultServer>Standard server</DefaultServer>
+    <NotConnected>Ikke tilkoblet : Kan ikke hente server liste</NotConnected>
+    <ChooseServerOne>Du mø velge server først</ChooseServerOne>
+    <ChooseServerTwo>Dobbel klikk pø en server for ø sette den som standard</ChooseServerTwo>
+    <Passed>Godtatt</Passed>
+    <Failed>Ikke godtatt</Failed>
+    <Validating>Godkjenner</Validating>
+    <Found>Funnet</Found>
+    <ValidatingFiles>Godkjenner installerte filer</ValidatingFiles>
+    <NotFound>Ikke funnet</NotFound>
+    <Complete>Ferdig</Complete>
+    <SetupLocalConfig>Setter opp lokalt oppsett for denne serveren</SetupLocalConfig>
+    <SettingServerAddress>Setter server adresse</SettingServerAddress>
+    <CopyConfigFiles>Kopierer oppsett filer</CopyConfigFiles>
+    <CopyingBinaries>Kopierer binaries</CopyingBinaries>
+    <CopyingSoundSystem>Kopierer Miles Sound System</CopyingSoundSystem>
+    <Created>Laget</Created>
+    <CreatingDirectory>Lager mapper</CreatingDirectory>
+    <CustomServerDir>Sjekker egen server katalog</CustomServerDir>
+    <GettingCustomTre>Skaffer Custom Tre List</GettingCustomTre>
+    <RSSError>Feil ved lasting av RSS</RSSError>
+    <LoadingWait>Laster resultat... Vennligst vent</LoadingWait>
+    <Loaded>Lastet</Loaded>
+    <Items>Gjenstander</Items>
+    <Connect>Koble til</Connect>
+    <SelectCharacter>Velg karakter</SelectCharacter>
+    <CustomServer>Egen Server</CustomServer>
+    <IPAddress>IP Address</IPAddress>
+    <Port>Port</Port>
+    <Add>Add</Add>
+    <Cancel>Cancel</Cancel>
+    <UnableToDisplayRSS>Unable to display RSS</UnableToDisplayRSS>
+    <BlankUsername>Username is blank</BlankUsername>
+    <BlankPassword>Password is blank</BlankPassword>
+    <ClientUpToDate>Your client is up to date</ClientUpToDate>
+    <ClientOutOfDate>Your client needs updating</ClientOutOfDate>
+    <PatchFromSWG>Please patch your installion from the SWG Launchpad</PatchFromSWG>
+    <ServerAvailable>Server is unavailable</ServerAvailable>
+    <ConnectionTimeout>Timed out when connecting to the server</ConnectionTimeout>
+    <Success>Success</Success>
+    <CredentialsIncorrect>Username or password incorrect</CredentialsIncorrect>
+    <ErrorLoading>Error loading</ErrorLoading>
+    <MultipleFiles>Multiple files found for</MultipleFiles>
+    <LauncherNotSupportedOne>This server does not support connecting with this launcher</LauncherNotSupportedOne>
+    <LauncherNotSupportedTwo>Please connect via the normal login screeen or update LoginServer.exe to the latest build</LauncherNotSupportedTwo>
+    <DownloadingUpdateOne>Downloading Update</DownloadingUpdateOne>
+    <DownloadingUpdateTwo>Please Wait</DownloadingUpdateTwo>
+    <RememberDetails>Remember Details</RememberDetails>
+    <AutoLogin>Login Automatically</AutoLogin>
+    <Edit>Edit</Edit>
+    <Delete>Delete</Delete>
+    <ShowDebugMode>Show Debug Mode</ShowDebugMode>
+</Language>
+

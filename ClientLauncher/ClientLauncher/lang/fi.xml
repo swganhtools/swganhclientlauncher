@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language Locale="fi" Name="Suomi">
+    <FormTitle>SWG:ANH käynnistysohjelma</FormTitle>
+    <ShowHelp>Näytä apu</ShowHelp>
+    <RefreshServers>Päivitä palvelinlista</RefreshServers>
+    <RefreshingServers>Palvelinlistaa päivitetään</RefreshingServers>
+    <Preferences>Asetukset</Preferences>
+    <GameClient>Peliohjelma</GameClient>
+    <Launcher>Käynnistysohjelma</Launcher>
+    <Graphics>Grafiikka</Graphics>
+    <DisplayAdapter>Näytönohjain</DisplayAdapter>
+    <GameResolution>Resoluutio</GameResolution>
+    <ShaderVersion>Vertex/Pixel Shader -versio</ShaderVersion>
+    <WindowedMode>Ikkunatila</WindowedMode>
+    <BorderlessWindow>Reunaton ikkuna</BorderlessWindow>
+    <DisableBumpMapping>Estä Bump Mapping</DisableBumpMapping>
+    <DisableHardwareMouseCursor>Estä rautapohjainen hiirikursori</DisableHardwareMouseCursor>
+    <UseLowDetailTextures>Käytä matalan tarkkuuden tekstuureja</UseLowDetailTextures>
+    <UseLowDetailNormalMaps>Käytä matalan tarkkuuden Normal Mappeja</UseLowDetailNormalMaps>
+    <DisableMultiPassRendering>Estä Multi Pass Rendering</DisableMultiPassRendering>
+    <DisableVSynch>Estä VSynch</DisableVSynch>
+    <DisableFastMouseCursor>Estä nopea hiirikursori</DisableFastMouseCursor>
+    <UseSafeRenderer>Käytä Safe Rendereriä (Hitaampi)</UseSafeRenderer>
+    <ContrainMouseCursor>Rajaa hiirikursori ikkunaan</ContrainMouseCursor>
+    <Sound>Äänet</Sound>
+    <DisableAudio>Hiljennä äänet :</DisableAudio>
+    <MilesVersion>Milesin Versio :</MilesVersion>
+    <Speakers>Kaiuttimet :</Speakers>
+    <Game>Peli</Game>
+    <AllowMultipleInstances>Salli usean kopion ajo</AllowMultipleInstances>
+    <SkipIntroSequence>Hyppää intron yli</SkipIntroSequence>
+    <DisableCharSLOD>Estä Character System Level of Detail Manager</DisableCharSLOD>
+    <ClientLanguage>Kieli :</ClientLanguage>
+    <Advanced>Lisäasetukset</Advanced>
+    <DisableWorldPreloading>Estä maailman esilataaminen</DisableWorldPreloading>
+    <UseLowDetailCharacters>Käytä matalan tarkkuuden hahmoja</UseLowDetailCharacters>
+    <UseLowDetailMeshes>Käytä matalan tarkkuuden Meshejä</UseLowDetailMeshes>
+    <DisableTextureBaking>Estä Texture Baking</DisableTextureBaking>
+    <DisableFileCaching>Estä File Caching</DisableFileCaching>
+    <DisableAsynchronousLoader>Estä Asynchronous Loader</DisableAsynchronousLoader>
+    <ChooseGalaxy>Galaksin valinta</ChooseGalaxy>
+    <ServerNews>Uutiset</ServerNews>
+    <ClientPatcher>Päivitysohjelma</ClientPatcher>
+    <ChangeLanguage>Kielen valinta</ChangeLanguage>
+    <GameLauncher>Käynnistä SWG</GameLauncher>
+    <ServerName>Palvelimen nimi :</ServerName>
+    <Description>Kuvaus :</Description>
+    <ServerBuild>Versio :</ServerBuild>
+    <Population>Pelaajia :</Population>
+    <ServerInformation>Palvelimen tiedot</ServerInformation>
+    <ManageCharacters>Hallinnoi hahmoja</ManageCharacters>
+    <Skin>Teema :</Skin>
+    <ColourScheme>Väriteema :</ColourScheme>
+    <GhostFont>Varjoteksti :</GhostFont>
+    <Settings>Peliasetukset</Settings>
+    <ViewFullArticle>Lue koko teksti</ViewFullArticle>
+    <RegistryErrorOne>SWG:ANH:ta ei löytynyt</RegistryErrorOne>
+    <RegistryErrorTwo>Etsi asennuskansio</RegistryErrorTwo>
+    <Patching>Päivitetään</Patching>
+    <StandardFiles>Tarkistetaan perustiedostoja</StandardFiles>
+    <CustomFiles>Tarkistetaan erityistiedostoja</CustomFiles>
+    <Server>Palvelin</Server>
+    <Username>Käyttäjänimi :</Username>
+    <Password>Salasana :</Password>
+    <CharacterName>Nimi</CharacterName>
+    <DefaultServer>Oletuspalvelin</DefaultServer>
+    <NotConnected>Yhdistys epäonnistui: Palvelinlistan haku epäonnistui</NotConnected>
+    <ChooseServerOne>Valitse palvelin ensin</ChooseServerOne>
+    <ChooseServerTwo>Tuplaklikkaa palvelinta asettaaksesi se oletusarvoksi</ChooseServerTwo>
+    <Passed>Läpäisi</Passed>
+    <Failed>Epäonnistui</Failed>
+    <Validating>Validoidaan</Validating>
+    <Found>Löytyi</Found>
+    <ValidatingFiles>Validoidaan asenenttuja tiedostoja</ValidatingFiles>
+    <NotFound>Ei löytynyt</NotFound>
+    <Complete>Valmis</Complete>
+    <SetupLocalConfig>Asetetaan paikallisia asetuksia tätä palvelinta varten</SetupLocalConfig>
+    <SettingServerAddress>Asetetaan palvelimen osoitetta</SettingServerAddress>
+    <CopyConfigFiles>Kopioidaan asetustiedostoja</CopyConfigFiles>
+    <CopyingBinaries>Kopioidaan ohjelmatiedostoja</CopyingBinaries>
+    <CopyingSoundSystem>Kopioidaan Miles -äänijärjestelmää</CopyingSoundSystem>
+    <Created>Luotu</Created>
+    <CreatingDirectory>Luodaan hakemistoa</CreatingDirectory>
+    <CustomServerDir>Tarkistetaan palvelimen hakemistoa</CustomServerDir>
+    <GettingCustomTre>Haetaan listaa Tre-tiedostoista</GettingCustomTre>
+    <RSSError>Virhe ladatessa RSS</RSSError>
+    <LoadingWait>Ladataan tuloksia</LoadingWait>
+    <Loaded>Ladattu</Loaded>
+    <Items>esinettä</Items>
+    <Connect>Yhdistä</Connect>
+    <SelectCharacter>Valitse hahmo</SelectCharacter>
+    <CustomServer>Custom Server</CustomServer>
+    <IPAddress>IP-osoite</IPAddress>
+    <Port>Portti</Port>
+    <Add>Lisää</Add>
+    <Cancel>Peruuta</Cancel>
+    <UnableToDisplayRSS>RSS ei voitu näyttää</UnableToDisplayRSS>
+    <BlankUsername>Käyttäjänimi on tyhjä</BlankUsername>
+    <BlankPassword>Salasana on tyhjä</BlankPassword>
+    <ClientUpToDate>Käytössä ohjelman uusin versio</ClientUpToDate>
+    <ClientOutOfDate>Ohjelma on vanhentunut, päivitä</ClientOutOfDate>
+    <PatchFromSWG>Päivitä asennus SWG Launchpadin kautta</PatchFromSWG>
+    <ServerAvailable>Palvelin ei vastaa</ServerAvailable>
+    <ConnectionTimeout>Yhdistämisessä kesti liian pitkään</ConnectionTimeout>
+    <Success>Onnistui</Success>
+    <CredentialsIncorrect>Väärä käyttäjänimi tai salasana</CredentialsIncorrect>
+    <ErrorLoading>Virhe ladatessa</ErrorLoading>
+    <MultipleFiles>Löytyi useita tiedostoja</MultipleFiles>
+    <LauncherNotSupportedOne>Tämä palvelin ei tue käytössä olevaa launcheria</LauncherNotSupportedOne>
+    <LauncherNotSupportedTwo>Yhdistä tavallisen kirjautumisruudun kautta tai päivitä LoginServer.exe uusimpaan versioon</LauncherNotSupportedTwo>
+    <DownloadingUpdateOne>Ladataan päivitystä</DownloadingUpdateOne>
+    <DownloadingUpdateTwo>Ole hyvä ja odota</DownloadingUpdateTwo>
+    <RememberDetails>Tallenna käyttäjänimi ja salasana</RememberDetails>
+    <AutoLogin>Login Automatically</AutoLogin>
+    <Edit>Edit</Edit>
+    <Delete>Delete</Delete>
+    <ShowDebugMode>Show Debug Mode</ShowDebugMode>
+</Language>

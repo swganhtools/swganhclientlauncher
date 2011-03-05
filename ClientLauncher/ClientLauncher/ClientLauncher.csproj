@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{33107979-B071-4154-95C0-FE3A0B24AEF2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClientLauncher</RootNamespace>
+    <AssemblyName>ClientLauncher</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <ApplicationIcon>Images\swganhico.ico</ApplicationIcon>
+    <StartupObject>ClientLauncher.App</StartupObject>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ApplicationUpdates.cs" />
+    <Compile Include="Classes\Ball.cs" />
+    <Compile Include="Classes\ChangeCustomServerEventArgs.cs" />
+    <Compile Include="Classes\Encryption.cs" />
+    <Compile Include="Classes\ErrorMessageEventArgs.cs" />
+    <Compile Include="Classes\HtmlConverter\HtmlCssParser.cs" />
+    <Compile Include="Classes\HtmlConverter\HtmlLexicalAnalyzer.cs" />
+    <Compile Include="Classes\HtmlConverter\HtmlParser.cs" />
+    <Compile Include="Classes\HtmlConverter\HtmlSchema.cs" />
+    <Compile Include="Classes\HtmlConverter\HtmlTokenType.cs" />
+    <Compile Include="Classes\HtmlConverter\HtmlToXamlConverter.cs" />
+    <Compile Include="Classes\IniFiles.cs" />
+    <Compile Include="Classes\Locales.cs" />
+    <Compile Include="Classes\Patcher.cs" />
+    <Compile Include="Classes\ServerConnector.cs" />
+    <Compile Include="Classes\ServerInfo.cs" />
+    <Compile Include="Classes\StandardTre.cs" />
+    <Compile Include="Classes\TextVariables.cs" />
+    <Compile Include="Classes\Locale.cs" />
+    <Compile Include="Classes\UserPreferences.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\MathHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\ScreenResolution.cs" />
+    <Compile Include="Classes\ServerControls.cs" />
+    <Compile Include="Classes\ServerSelector.cs" />
+    <Compile Include="Service References\LauncherData\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ServiceMaker.cs" />
+    <Compile Include="Classes\UISettings.cs" />
+    <Compile Include="Splash.xaml.cs">
+      <DependentUpon>Splash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\TextualServerControl.cs" />
+    <Compile Include="Usercontrols\ClientLauncher.xaml.cs">
+      <DependentUpon>ClientLauncher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\ClientPatcher.xaml.cs">
+      <DependentUpon>ClientPatcher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\GamePreferences.xaml.cs">
+      <DependentUpon>GamePreferences.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\Languages.xaml.cs">
+      <DependentUpon>Languages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\PatchProgress.xaml.cs">
+      <DependentUpon>PatchProgress.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\Server.xaml.cs">
+      <DependentUpon>Server.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\ServerList.xaml.cs">
+      <DependentUpon>ServerList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\ServerNews.xaml.cs">
+      <DependentUpon>ServerNews.xaml</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Service References\LauncherData\ClientLauncher.LauncherData.LatestFile.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LauncherData\ClientLauncher.LauncherData.StandardTre.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LauncherData\LauncherData.wsdl" />
+    <AppDesigner Include="Properties\" />
+    <Resource Include="SWFonts\AGENCYR.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\background.jpg" />
+    <Content Include="PacketHandler.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skins\JediOrderOnline\background.jpg" />
+    <Content Include="Skins\JediOrderOnline\harvesters.jpg" />
+    <Content Include="Skins\JediOrderOnline\nighttime.jpg" />
+    <Content Include="Skins\JediOrderOnline\screenShot0047.jpg" />
+    <Content Include="Skins\JediOrderOnline\Settings.xml" />
+    <Content Include="Skins\SWGANH\background.jpg" />
+    <Content Include="Skins\SWGANH\screenShot0047.jpg" />
+    <Content Include="Skins\JediOrderOnline\twin_suns.jpg" />
+    <Content Include="zlib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zlib1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Skins\SWGANH\Settings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Skins\SWG_DataPad\Settings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Splash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\ClientLauncher.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\ClientPatcher.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\GamePreferences.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\Languages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\PatchProgress.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\Server.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\ServerList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\ServerNews.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Mars.jpg" />
+    <Resource Include="Images\swganhico.ico" />
+    <Resource Include="Images\Tatooine.jpg" />
+    <Resource Include="Images\Uranus.jpg" />
+    <Resource Include="Images\Venus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\LauncherData\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LauncherData\LauncherData.disco" />
+    <None Include="Service References\LauncherData\LauncherData.xsd" />
+    <None Include="Service References\LauncherData\LauncherData1.xsd" />
+    <None Include="Service References\LauncherData\LauncherData2.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LauncherData\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LauncherData\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LauncherData\ClientLauncher.LauncherData.CustomTre.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LauncherData\ClientLauncher.LauncherData.LauncherVersion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LauncherData\ClientLauncher.LauncherData.ServerInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LauncherData\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Resource Include="SWFonts\Aurek.ttf" />
+    <Resource Include="SWFonts\ewok.TTF" />
+    <Resource Include="SWFonts\mandalor.ttf" />
+    <Resource Include="SWFonts\metlrebl.ttf" />
+    <Resource Include="SWFonts\new_futhork.ttf" />
+    <Resource Include="SWFonts\sthproph.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Skins\SWGANH\harvesters.jpg" />
+    <Content Include="Skins\SWGANH\nighttime.jpg" />
+    <Content Include="Skins\SWGANH\twin_suns.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\check.png" />
+    <Resource Include="Images\galaxy.png" />
+    <Resource Include="Images\info.png" />
+    <Resource Include="Images\language.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\SWGANH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Languages\da.png" />
+    <Resource Include="Images\Languages\de-de.png" />
+    <Resource Include="Images\Languages\en-GB.png" />
+    <Resource Include="Images\Languages\es-es.png" />
+    <Resource Include="Images\Languages\fi.png" />
+    <Resource Include="Images\Languages\fr-fr.png" />
+    <Resource Include="Images\Languages\it-it.png" />
+    <Resource Include="Images\Languages\nl-nl.png" />
+    <Resource Include="Images\Languages\no-no.png" />
+    <Resource Include="Images\Languages\sv-se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\da.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\de-de.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\en-gb.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\sv-se.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\no-no.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\nl-nl.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\it-it.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\fr-fr.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\fi.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lang\es-es.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\wiki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\da.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\en-gb.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\en-us.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\de-de.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\es-es.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\fi.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\fr-fr.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\it-it.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\nl-nl.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lang_internal\no-no.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image1.png" />
+    <Resource Include="lang_internal\sv-se.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Launch.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)Skins" "$(ProjectDir)$(OutDir)Skins" /E /I /Q /Y
+xcopy "$(ProjectDir)lang" "$(ProjectDir)$(OutDir)lang" /E /I /Q /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

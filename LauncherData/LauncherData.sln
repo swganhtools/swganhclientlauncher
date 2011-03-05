@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherData", "LauncherData\LauncherData.csproj", "{965D5F54-98B3-46DA-A13D-660E6F85A7A5}"
+EndProject
+Project("{2CFEAB61-6A3B-4EB8-B523-560B4BEEF521}") = "LauncherData.csproj_deploy", "LauncherData.csproj_deploy\LauncherData.csproj_deploy.wdproj", "{549AABDA-D4E9-429C-B92D-43AAEF448C27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{965D5F54-98B3-46DA-A13D-660E6F85A7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965D5F54-98B3-46DA-A13D-660E6F85A7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965D5F54-98B3-46DA-A13D-660E6F85A7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965D5F54-98B3-46DA-A13D-660E6F85A7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549AABDA-D4E9-429C-B92D-43AAEF448C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549AABDA-D4E9-429C-B92D-43AAEF448C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549AABDA-D4E9-429C-B92D-43AAEF448C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549AABDA-D4E9-429C-B92D-43AAEF448C27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

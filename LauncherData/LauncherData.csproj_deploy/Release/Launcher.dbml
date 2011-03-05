@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SWGANH_Servers" Class="LauncherDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=HOONZHOUSE\SQLEXPRESS;Initial Catalog=SWGANH_Servers;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SWGANH_ServersConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tLauncherVersion" Member="tLauncherVersions">
+    <Type Name="tLauncherVersion">
+      <Column Name="VersionId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="VersionNumber" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PatchNotes" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="DownloadPath" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tCustomTre" Member="tCustomTres">
+    <Type Name="tCustomTre">
+      <Column Name="CustomTreId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServerId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Uri" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="MD5" Type="System.String" DbType="NChar(16) NOT NULL" CanBeNull="false" />
+      <Association Name="tServer_tCustomTre" Member="tServer" ThisKey="ServerId" OtherKey="ServerId" Type="tServer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tServer" Member="tServers">
+    <Type Name="tServer">
+      <Column Name="ServerId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Port" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NewsUrl" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="LastUpdated" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Population" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CharsCreated" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LauncherPort" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tServer_tCustomTre" Member="tCustomTres" ThisKey="ServerId" OtherKey="ServerId" Type="tCustomTre" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tStandardTre" Member="tStandardTres">
+    <Type Name="tStandardTre">
+      <Column Name="StandardTreId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Filename" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="MD5" Type="System.String" DbType="NChar(16) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

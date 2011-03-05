@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Launcher">
+  <DataContextMoniker Name="/LauncherDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a84bf1a5-93ee-44cd-b6fb-0240ee13f958" absoluteBounds="0.75, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LauncherDataContext/tLauncherVersion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="45b31d36-ff05-4618-b842-c34ff875c6be" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0dcd0b15-944b-4497-a3c2-478201f5fe3a" absoluteBounds="6.375, 4.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LauncherDataContext/tCustomTre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="112010f3-4d16-4012-b42b-39867b1fa62c" absoluteBounds="6.39, 4.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abd8d94b-5127-4671-9236-0c907ab13287" absoluteBounds="4.625, 1.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LauncherDataContext/tServer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="90a984a2-a813-4bac-b5bb-c16f0a9c2183" absoluteBounds="4.64, 1.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.4999995 : 4.23240397135417); (5.4999995 : 5.26044840494792); (6.375 : 5.26044840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LauncherDataContext/tServer/tServer_tCustomTre" />
+      <nodes>
+        <classShapeMoniker Id="abd8d94b-5127-4671-9236-0c907ab13287" />
+        <classShapeMoniker Id="0dcd0b15-944b-4497-a3c2-478201f5fe3a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d557b583-4fdb-4e2f-b4de-eba46b5f2323" absoluteBounds="1.625, 3.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LauncherDataContext/tStandardTre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9ac6186-eda5-4238-94dc-816f919e9b20" absoluteBounds="1.6400000000000001, 4.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

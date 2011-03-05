@@ -1,0 +1,5 @@
+D:\Projects\SWGANH\LauncherData\LauncherData\bin\LauncherData.dll
+D:\Projects\SWGANH\LauncherData\LauncherData\bin\LauncherData.pdb
+D:\Projects\SWGANH\LauncherData\LauncherData\obj\Release\ResolveAssemblyReference.cache
+D:\Projects\SWGANH\LauncherData\LauncherData\obj\Release\LauncherData.dll
+D:\Projects\SWGANH\LauncherData\LauncherData\obj\Release\LauncherData.pdb

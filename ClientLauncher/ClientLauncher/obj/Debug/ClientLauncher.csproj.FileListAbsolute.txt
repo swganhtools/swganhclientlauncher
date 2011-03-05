@@ -1,0 +1,1 @@
+C:\Projects\ClientLauncher\ClientLauncher\bin\Debug\ClientLauncher.exe.config
