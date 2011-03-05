@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SplashText>
+    <CheckingForUpdates>Controleren op updates</CheckingForUpdates>
+    <LoadingSkins>Thema's ophalen</LoadingSkins>
+    <LoadingLanguages>Talen ophalen</LoadingLanguages>
+    <LoadingServers>Servers ophalen</LoadingServers>
+    <UpdateFound>Update gevonden</UpdateFound>
+    <Done>Voltooid</Done>
+</SplashText>

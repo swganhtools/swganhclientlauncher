@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SplashText>
+    <CheckingForUpdates>Verificación a Actualización</CheckingForUpdates>
+    <LoadingSkins>Cargando skins</LoadingSkins>
+    <LoadingLanguages>Cargando Idiomas</LoadingLanguages>
+    <LoadingServers>Cargando servidores</LoadingServers>
+    <UpdateFound>Actualización fundar</UpdateFound>
+    <Done>Hecho</Done>
+</SplashText>
+
+

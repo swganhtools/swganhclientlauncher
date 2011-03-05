@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SplashText>
+    <CheckingForUpdates>Letar Efter Uppdateringar</CheckingForUpdates>
+    <LoadingSkins>Laddar Tema</LoadingSkins>
+    <LoadingLanguages>Laddar Språk</LoadingLanguages>
+    <LoadingServers>Laddar Servrar</LoadingServers>
+    <UpdateFound>Uppdatering Funnen</UpdateFound>
+    <Done>Klar</Done>
+</SplashText>
+
+

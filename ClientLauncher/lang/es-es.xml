@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language Locale="es-es" Name="Espanol">
+    <FormTitle>SWG:ANH Cliente Launcher</FormTitle>
+    <ShowHelp>Mostrar Ayuda</ShowHelp>
+    <RefreshServers>Refrescar Servidores</RefreshServers>
+    <RefreshingServers>Refrescando, por favor, espera</RefreshingServers>
+    <Preferences>Preferencias</Preferences>
+    <GameClient>Cliente del juego</GameClient>
+    <Launcher>Lanzador</Launcher>
+    <Graphics>Graficos</Graphics>
+    <DisplayAdapter>Adaptador de Pantalla</DisplayAdapter>
+    <GameResolution>Resolucion del juego</GameResolution>
+    <ShaderVersion>Vertex/Version del Sombreado de Pixels</ShaderVersion>
+    <WindowedMode>Modo ventana</WindowedMode>
+    <BorderlessWindow>Ventana sin bordes</BorderlessWindow>
+    <DisableBumpMapping>Desactivar Bump Mapping</DisableBumpMapping>
+    <DisableHardwareMouseCursor>Desactivar Hardware Mouse Cursor</DisableHardwareMouseCursor>
+    <UseLowDetailTextures>Usar texturas de bajo detalle</UseLowDetailTextures>
+    <UseLowDetailNormalMaps>Usar los mapas normales con bajo detalle</UseLowDetailNormalMaps>
+    <DisableMultiPassRendering>Desactivar el Multi-Pasos del Procesador</DisableMultiPassRendering>
+    <DisableVSynch>Desactivar VSynch (Permitir Tearing)</DisableVSynch>
+    <DisableFastMouseCursor>Desactivar el Cursor del Raton Rapido</DisableFastMouseCursor>
+    <UseSafeRenderer>Utilizar Modo Seguro (lento)</UseSafeRenderer>
+    <ContrainMouseCursor>Limitar el Cursor del Raton a la Ventana</ContrainMouseCursor>
+    <Sound>Sonido</Sound>
+    <DisableAudio>Desactivar Sonido :</DisableAudio>
+    <MilesVersion>Miles Version :</MilesVersion>
+    <Speakers>Altavoz :</Speakers>
+    <Game>Juego</Game>
+    <AllowMultipleInstances>Permitir Multiples Instancias</AllowMultipleInstances>
+    <SkipIntroSequence>Saltar Introduccion</SkipIntroSequence>
+    <DisableCharSLOD>Desactivar el Gestor del Nivel de Detalle de Caracteres</DisableCharSLOD>
+    <ClientLanguage>Idiomas :</ClientLanguage>
+    <Advanced>Avanzado</Advanced>
+    <DisableWorldPreloading>Desactivar Precarga</DisableWorldPreloading>
+    <UseLowDetailCharacters>Usar Personajes con Bajo Detalle</UseLowDetailCharacters>
+    <UseLowDetailMeshes>Usar Meshes de Bajo Detalle</UseLowDetailMeshes>
+    <DisableTextureBaking>Desactivar el Baking de Texturas</DisableTextureBaking>
+    <DisableFileCaching>Desactivar Cacheo</DisableFileCaching>
+    <DisableAsynchronousLoader>Desactivar Cargador Asincronico</DisableAsynchronousLoader>
+    <ChooseGalaxy>Seleccion de galaxia</ChooseGalaxy>
+    <ServerNews>Noticias de Servidores</ServerNews>
+    <ClientPatcher>Parchear Cliente</ClientPatcher>
+    <ChangeLanguage>Seleccion de Idioma</ChangeLanguage>
+    <GameLauncher>Lanzar SWG</GameLauncher>
+    <ServerName>Nombre del servidor :</ServerName>
+    <Description>Descripcion :</Description>
+    <ServerBuild>Build :</ServerBuild>
+    <Population>Poblacion :</Population>
+    <ServerInformation>Informacion del servidor</ServerInformation>
+    <ManageCharacters>Manejar Personajes</ManageCharacters>
+    <Skin>Skin :</Skin>
+    <ColourScheme>Esquema de Color :</ColourScheme>
+    <GhostFont>Nombre de Ghost Font :</GhostFont>
+    <Settings>Configuracion del Cliente</Settings>
+    <ViewFullArticle>Ver Articulo Completo</ViewFullArticle>
+    <RegistryErrorOne>No Autorizado a Encontrar el Cliente Mediante El Registro</RegistryErrorOne>
+    <RegistryErrorTwo>Por favor, seleccione la carpeta del instalacion</RegistryErrorTwo>
+    <Patching>Parcheando</Patching>
+    <StandardFiles>Comprobar los archivos estandar</StandardFiles>
+    <CustomFiles>Comprobar los archivos Personalizados</CustomFiles>
+    <Server>Servidor</Server>
+    <Username>Login</Username>
+    <Password>Clave</Password>
+    <CharacterName>Nombre</CharacterName>
+    <DefaultServer>Servidor por Defecto</DefaultServer>
+    <NotConnected>Sin conexion : No se puede recuperar la lista de servidores</NotConnected>
+    <ChooseServerOne>Elija un servidor</ChooseServerOne>
+    <ChooseServerTwo>Doble click en el servidor para configurarlo como servidor por defecto</ChooseServerTwo>
+    <Passed>Pasado</Passed>
+    <Failed>Fracaso</Failed>
+    <Validating>Validando</Validating>
+    <Found>Encontrado</Found>
+    <ValidatingFiles>Validando archivos instalados</ValidatingFiles>
+    <NotFound>No Encontrado</NotFound>
+    <Complete>Completo</Complete>
+    <SetupLocalConfig>Configuracion local del servidor</SetupLocalConfig>
+    <SettingServerAddress>Configuracion de direccion del servidor</SettingServerAddress>
+    <CopyConfigFiles>Copia de archivos de configuracion</CopyConfigFiles>
+    <CopyingBinaries>Copiando binarios</CopyingBinaries>
+    <CopyingSoundSystem>Copiando sonidos de sistema</CopyingSoundSystem>
+    <Created>Creado</Created>
+    <CreatingDirectory>Creando directorio</CreatingDirectory>
+    <CustomServerDir>Verificacion Direccion del Servidor</CustomServerDir>
+    <GettingCustomTre>Obteniendo lista Tre</GettingCustomTre>
+    <RSSError>Error al cargar RSS</RSSError>
+    <LoadingWait>Cargando... Espera, Por favor</LoadingWait>
+    <Loaded>Cargado</Loaded>
+    <Items>Objetos</Items>
+    <Connect>Conectar</Connect>
+    <SelectCharacter>Seleccionar Caracter</SelectCharacter>
+    <CustomServer>Servidor Personalizado</CustomServer>
+    <IPAddress>Direccion IP</IPAddress>
+    <Port>Puerto</Port>
+    <Add>Agregar</Add>
+    <Cancel>Cancelar</Cancel>
+    <UnableToDisplayRSS>RSS no disponible</UnableToDisplayRSS>
+    <BlankUsername>Nombre de usuario en blanco</BlankUsername>
+    <BlankPassword>Clave en blanco</BlankPassword>
+    <ClientUpToDate>Cliente actualizado</ClientUpToDate>
+    <ClientOutOfDate>Tu cliente necesita actualizarse</ClientOutOfDate>
+    <PatchFromSWG>Porfavor, parchea tu instalacion de tu lanzador de SWG</PatchFromSWG>
+    <ServerAvailable>Servidor disponible</ServerAvailable>
+    <ConnectionTimeout>Tiempo maximo de espera pasado al intentar conectar al servidor</ConnectionTimeout>
+    <Success>Exito</Success>
+    <CredentialsIncorrect>Nombre de usuario o clave incorrectos</CredentialsIncorrect>
+    <ErrorLoading>Problema al cargar</ErrorLoading>
+    <MultipleFiles>Varios archivos encontrados para</MultipleFiles>
+    <LauncherNotSupportedOne>Este servidor no soporta la conexion con este lanzador</LauncherNotSupportedOne>
+    <LauncherNotSupportedTwo>Porfavor conecta por la pantalla de logueo normal o actualiza tu LoginServer.exe a la ultima version</LauncherNotSupportedTwo>
+    <DownloadingUpdateOne>Descargando actualizaciones</DownloadingUpdateOne>
+    <DownloadingUpdateTwo>Porfavor espera</DownloadingUpdateTwo>
+    <RememberDetails>Recordar datos</RememberDetails>
+    <AutoLogin>Loguear automaticamente</AutoLogin>
+    <Edit>Editar</Edit>
+    <Delete>Borrar</Delete>
+    <ShowDebugMode>Mostrar el Modo de Depuracion</ShowDebugMode>
+</Language>

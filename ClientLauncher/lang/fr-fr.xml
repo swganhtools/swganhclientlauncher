@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language Locale="fr-fr" Name="Français">
+    <FormTitle>SWG:ANH Client Launcher</FormTitle>
+    <ShowHelp>Aide</ShowHelp>
+    <RefreshServers>Rafraîchir les serveurs</RefreshServers>
+    <RefreshingServers>Rafraîchissement en cours - S.V.P Patientez</RefreshingServers>
+    <Preferences>Préférences</Preferences>
+    <GameClient>Client du jeu</GameClient>
+    <Launcher>Lanceur</Launcher>
+    <Graphics>Graphismes</Graphics>
+    <DisplayAdapter>Carte graphique</DisplayAdapter>
+    <GameResolution>Résolution du jeu</GameResolution>
+    <ShaderVersion>Version du Vertex/Pixel Shader</ShaderVersion>
+    <WindowedMode>Mode fenêtré</WindowedMode>
+    <BorderlessWindow>Fenêtre sans bordures</BorderlessWindow>
+    <DisableBumpMapping>Désactiver le Bump Mapping</DisableBumpMapping>
+    <DisableHardwareMouseCursor>Désactiver le curseur matériel</DisableHardwareMouseCursor>
+    <UseLowDetailTextures>Utiliser des textures à bas détails</UseLowDetailTextures>
+    <UseLowDetailNormalMaps>Utiliser des Normal Maps à bas détails</UseLowDetailNormalMaps>
+    <DisableMultiPassRendering>Désactiver le Multi-Pass Rendering</DisableMultiPassRendering>
+    <DisableVSynch>Désactiver la Syncronisation Verticale (Autoriser le Tearing)</DisableVSynch>
+    <DisableFastMouseCursor>Désactiver le curseur rapide</DisableFastMouseCursor>
+    <UseSafeRenderer>Utiliser le rendement sûr (Plus lent)</UseSafeRenderer>
+    <ContrainMouseCursor>Retenir le curseur dans la fenêtre</ContrainMouseCursor>
+    <Sound>Son</Sound>
+    <DisableAudio>Désactiver le son :</DisableAudio>
+    <MilesVersion>Version des fichiers son :</MilesVersion>
+    <Speakers>Haut-parleurs :</Speakers>
+    <Game>Jeu</Game>
+    <AllowMultipleInstances>Autoriser plusieurs instances</AllowMultipleInstances>
+    <SkipIntroSequence>Passer la séquence d'intro</SkipIntroSequence>
+    <DisableCharSLOD>Désactiver le manageur du niveau de détail du personnage</DisableCharSLOD>
+    <ClientLanguage>Langage :</ClientLanguage>
+    <Advanced>Avancé</Advanced>
+    <DisableWorldPreloading>Désactiver le pré-chargement du monde</DisableWorldPreloading>
+    <UseLowDetailCharacters>Utiliser des personnages à bas détails</UseLowDetailCharacters>
+    <UseLowDetailMeshes>Utiliser des modèles à bas détails</UseLowDetailMeshes>
+    <DisableTextureBaking>Désactiver le Texture Baking</DisableTextureBaking>
+    <DisableFileCaching>Désactiver le cache des fichiers</DisableFileCaching>
+    <DisableAsynchronousLoader>Désactiver le chargement asynchrone</DisableAsynchronousLoader>
+    <ChooseGalaxy>Sélection de la Galaxie</ChooseGalaxy>
+    <ServerNews>Serveur News</ServerNews>
+    <ClientPatcher>Client Patcheur</ClientPatcher>
+    <ChangeLanguage>Sélection du langage</ChangeLanguage>
+    <GameLauncher>Lancer SWG</GameLauncher>
+    <ServerName>Nom du Serveur :</ServerName>
+    <Description>Description :</Description>
+    <ServerBuild>Build :</ServerBuild>
+    <Population>Population :</Population>
+    <ServerInformation>Serveur Information</ServerInformation>
+    <ManageCharacters>Organiser vos personnages</ManageCharacters>
+    <Skin>Skin :</Skin>
+    <ColourScheme>Arrangement des couleurs :</ColourScheme>
+    <GhostFont>Font du nom fantôme :</GhostFont>
+    <Settings>Configuration du client</Settings>
+    <ViewFullArticle>Voir l'article entier</ViewFullArticle>
+    <RegistryErrorOne>Impossible de localiser votre client SWG:ANH dans le registre</RegistryErrorOne>
+    <RegistryErrorTwo>Sélectonnez votre répertoire d'installation S.V.P</RegistryErrorTwo>
+    <Patching>Téléchargement des patchs</Patching>
+    <StandardFiles>Vérification des fichiers standards</StandardFiles>
+    <CustomFiles>Vérification des fichiers customisés</CustomFiles>
+    <Server>Serveur</Server>
+    <Username>Nom d'utilisateur :</Username>
+    <Password>Mot de passe :</Password>
+    <CharacterName>Nom</CharacterName>
+    <DefaultServer>Serveur par défaut</DefaultServer>
+    <NotConnected>Non Connecté : Impossible de trouver la liste des serveurs</NotConnected>
+    <ChooseServerOne>Vous devez choisir un serveur en premier</ChooseServerOne>
+    <ChooseServerTwo>Double cliquer sur un serveur pour le sélectionner en tant que défaut</ChooseServerTwo>
+    <Passed>Réussi</Passed>
+    <Failed>Echoué</Failed>
+    <Validating>Validation en cours</Validating>
+    <Found>Trouvé</Found>
+    <ValidatingFiles>Validation des fichiers installés</ValidatingFiles>
+    <NotFound>Non trouvé</NotFound>
+    <Complete>Terminé</Complete>
+    <SetupLocalConfig>Configuration locale pour ce serveur</SetupLocalConfig>
+    <SettingServerAddress>Configuration de l'adresse du serveur</SettingServerAddress>
+    <CopyConfigFiles>Fichiers de configuration en cours de copie</CopyConfigFiles>
+    <CopyingBinaries>Fichiers binaires en cours de copie</CopyingBinaries>
+    <CopyingSoundSystem>Fichiers sons en cours de copie</CopyingSoundSystem>
+    <Created>Terminé</Created>
+    <CreatingDirectory>Répertoire en cours de création</CreatingDirectory>
+    <CustomServerDir>Vérification du répertoire des serveurs customisés</CustomServerDir>
+    <GettingCustomTre>Liste des Tre customisés en cours d'acquisition</GettingCustomTre>
+    <RSSError>Erreur de chargement des RSS</RSSError>
+    <LoadingWait>Chargement des résultats...Patientez S.V.P</LoadingWait>
+    <Loaded>Terminé</Loaded>
+    <Items>Objets</Items>
+    <Connect>Se connecter</Connect>
+    <SelectCharacter>Selection du personnage</SelectCharacter>
+    <CustomServer>Ajout d'un serveur</CustomServer>
+    <IPAddress>Adresse IP</IPAddress>
+    <Port>Port</Port>
+    <Add>Ajouter</Add>
+    <Cancel>Annuler</Cancel>    
+    <UnableToDisplayRSS>Impossible d'afficher les flux RSS</UnableToDisplayRSS>
+    <BlankUsername>Le nom d'utilisateur est manquant</BlankUsername>
+    <BlankPassword>Le mot de passe est manquant</BlankPassword>
+    <ClientUpToDate>Votre client est à jour</ClientUpToDate>
+    <ClientOutOfDate>Votre client requiert une mise à jour</ClientOutOfDate>
+    <PatchFromSWG>Mettez à jours votre installation via le launchpad SWG s'il vous plait</PatchFromSWG>
+    <ServerAvailable>Serveur non disponible</ServerAvailable>
+    <ConnectionTimeout>Expiration du délai lors de la connexion au serveur</ConnectionTimeout>
+    <Success>Reussie</Success>
+    <CredentialsIncorrect>Nom d'utilisateur ou mot de passe incorrecte</CredentialsIncorrect>
+    <ErrorLoading>Erreur dans le chargement</ErrorLoading>
+    <MultipleFiles>Plusieurs résultats</MultipleFiles>
+    <LauncherNotSupportedOne>Ce client ne supporte pas la connection avec ce serveur</LauncherNotSupportedOne>
+    <LauncherNotSupportedTwo>Veuillez vous connectez via la page compte du serveur ou utilisez une mise à jour du LoginServer.exe</LauncherNotSupportedTwo>
+    <DownloadingUpdateOne>Téléchargement de la mise à jour</DownloadingUpdateOne>
+    <DownloadingUpdateTwo>Veuillez attendre</DownloadingUpdateTwo>
+    <RememberDetails>Remember Details</RememberDetails>
+    <AutoLogin>Login Automatically</AutoLogin>
+    <Edit>Edit</Edit>
+    <Delete>Delete</Delete>
+    <ShowDebugMode>Montrer la fenêtre de Débogage</ShowDebugMode>
+</Language>
+

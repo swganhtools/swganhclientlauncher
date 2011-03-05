@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SplashText>
+    <CheckingForUpdates>Søker etter oppdateringer</CheckingForUpdates>
+    <LoadingSkins>Laster utseende</LoadingSkins>
+    <LoadingLanguages>Laster språk</LoadingLanguages>
+    <LoadingServers>Laster servere</LoadingServers>
+    <UpdateFound>Oppdatering funnet</UpdateFound>
+    <Done>Ferdig</Done>
+</SplashText>

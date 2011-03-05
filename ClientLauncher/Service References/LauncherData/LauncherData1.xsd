@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/LauncherData" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/LauncherData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://swganh.hooni.us/LauncherData.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfServerInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ServerInfo" nillable="true" type="tns:ServerInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfServerInfo" nillable="true" type="tns:ArrayOfServerInfo" />
+  <xs:complexType name="ServerInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CharsCreated" type="xs:int" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastUpdated" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LauncherPort" type="xs:int" />
+      <xs:element minOccurs="0" name="Population" type="xs:int" />
+      <xs:element minOccurs="0" name="Port" type="xs:int" />
+      <xs:element minOccurs="0" name="RSSFeedUrl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SafeFolderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServerId" type="ser:guid" />
+      <xs:element minOccurs="0" name="ServerName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServerInfo" nillable="true" type="tns:ServerInfo" />
+  <xs:complexType name="ArrayOfLauncherVersion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LauncherVersion" nillable="true" type="tns:LauncherVersion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLauncherVersion" nillable="true" type="tns:ArrayOfLauncherVersion" />
+  <xs:complexType name="LauncherVersion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DateCreated" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FileSize" type="xs:long" />
+      <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PatchNotes" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VersionId" type="ser:guid" />
+      <xs:element minOccurs="0" name="VersionNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LauncherVersion" nillable="true" type="tns:LauncherVersion" />
+  <xs:complexType name="LatestFile">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FileBytes" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LatestFile" nillable="true" type="tns:LatestFile" />
+  <xs:complexType name="ArrayOfCustomTre">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CustomTre" nillable="true" type="tns:CustomTre" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCustomTre" nillable="true" type="tns:ArrayOfCustomTre" />
+  <xs:complexType name="CustomTre">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MD5Hash" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Uri" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CustomTre" nillable="true" type="tns:CustomTre" />
+  <xs:complexType name="ArrayOfStandardTre">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="StandardTre" nillable="true" type="tns:StandardTre" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStandardTre" nillable="true" type="tns:ArrayOfStandardTre" />
+  <xs:complexType name="StandardTre">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Filename" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MD5Hash" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StandardTre" nillable="true" type="tns:StandardTre" />
+</xs:schema>

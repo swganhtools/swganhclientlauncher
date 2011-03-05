@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Language Locale="sv-se" Name="Svenska">
+    <FormTitle>SWG:ANH Klientsstartare</FormTitle>
+    <ShowHelp>Visa hjälp</ShowHelp>
+    <RefreshServers>Uppdatera Serverlista</RefreshServers>
+    <RefreshingServers>Uppdaterar - Var God Vänta</RefreshingServers>
+    <Preferences>Inställningar</Preferences>
+    <GameClient>Spelklient</GameClient>
+    <Launcher>Klientstartare</Launcher>
+    <Graphics>Grafik</Graphics>
+    <DisplayAdapter>Grafikkort</DisplayAdapter>
+    <GameResolution>Spelupplösning</GameResolution>
+    <ShaderVersion>Vertex/Pixel Shader Version</ShaderVersion>
+    <WindowedMode>Fönsterläge</WindowedMode>
+    <BorderlessWindow>Kantlöst Fönster</BorderlessWindow>
+    <DisableBumpMapping>Inaktivera Bump Mapping</DisableBumpMapping>
+    <DisableHardwareMouseCursor>Inaktivera Hårdvarubaserad Musmarkör</DisableHardwareMouseCursor>
+    <UseLowDetailTextures>Använd Lågupplösta Texturer</UseLowDetailTextures>
+    <UseLowDetailNormalMaps>Använd Lågupplösta Normal Maps</UseLowDetailNormalMaps>
+    <DisableMultiPassRendering>Inaktivera Fler-pass Rendering</DisableMultiPassRendering>
+    <DisableVSynch>Inaktivera Vertikalsynkning (tillåt flimmer)</DisableVSynch>
+    <DisableFastMouseCursor>Inaktivera Snabbmusmarkör</DisableFastMouseCursor>
+    <UseSafeRenderer>Använd Säker Rendering (Långsammare)</UseSafeRenderer>
+    <ContrainMouseCursor>Begränsa Musmarkör till Fönster</ContrainMouseCursor>
+    <Sound>Ljud</Sound>
+    <DisableAudio>Inaktivera Ljud :</DisableAudio>
+    <MilesVersion>Miles Version :</MilesVersion>
+    <Speakers>Högtalare :</Speakers>
+    <Game>Spel</Game>
+    <AllowMultipleInstances>Tillåt Multipla Instanser</AllowMultipleInstances>
+    <SkipIntroSequence>Hoppa Över Intro-scenen</SkipIntroSequence>
+    <DisableCharSLOD>Inaktivera LOD För Karaktärer</DisableCharSLOD>
+    <ClientLanguage>Språk :</ClientLanguage>
+    <Advanced>Avancerat</Advanced>
+    <DisableWorldPreloading>Inaktivera Förladdning Av Värld</DisableWorldPreloading>
+    <UseLowDetailCharacters>Använd Lågupplösta Karaktärer</UseLowDetailCharacters>
+    <UseLowDetailMeshes>Använd Lågupplöst Geometri</UseLowDetailMeshes>
+    <DisableTextureBaking>Inaktivera Texture Baking</DisableTextureBaking>
+    <DisableFileCaching>Inaktivera Fil-Cachning</DisableFileCaching>
+    <DisableAsynchronousLoader>Inaktivera Asynkron Laddare</DisableAsynchronousLoader>
+    <ChooseGalaxy>Galax Val</ChooseGalaxy>
+    <ServerNews>Server Nyheter</ServerNews>
+    <ClientPatcher>Klientuppdaterare</ClientPatcher>
+    <ChangeLanguage>Språkval</ChangeLanguage>
+    <GameLauncher>Starta SWG</GameLauncher>
+    <ServerName>Servernamn :</ServerName>
+    <Description>Beskrivning :</Description>
+    <ServerBuild>Version :</ServerBuild>
+    <Population>Population :</Population>
+    <ServerInformation>Serverinformation</ServerInformation>
+    <ManageCharacters>Hantera karaktärer</ManageCharacters>
+    <Skin>Tema :</Skin>
+    <ColourScheme>Färgteam :</ColourScheme>
+    <GhostFont>Spöktypsnittsnamn :</GhostFont>
+    <Settings>Klientinställningar</Settings>
+    <ViewFullArticle>Visa hela Artikeln</ViewFullArticle>
+    <RegistryErrorOne>Kan Ej Finna SWG:ANH Klienten i Systemregistret</RegistryErrorOne>
+    <RegistryErrorTwo>Var Vänlig Ange Installationkatalogen</RegistryErrorTwo>
+    <Patching>Uppdaterar</Patching>
+    <StandardFiles>Kontrollerar Standardfiler</StandardFiles>
+    <CustomFiles>Kontrollerar Anpassade Filer</CustomFiles>
+    <Server>Server</Server>
+    <Username>Användarnamn :</Username>
+    <Password>Lösenord :</Password>
+    <CharacterName>Namn</CharacterName>
+    <DefaultServer>Standardserver</DefaultServer>
+    <NotConnected>Ej ansluten : Kan Ej Hämta Serverlista</NotConnected>
+    <ChooseServerOne>Du Måste Välja En Server Först</ChooseServerOne>
+    <ChooseServerTwo>Dubbel-klicka På Server För Att Göra Den Till Standardval</ChooseServerTwo>
+    <Passed>Godkänd</Passed>
+    <Failed>Misslyckad</Failed>
+    <Validating>Validerad</Validating>
+    <Found>Hittade</Found>
+    <ValidatingFiles>Kontrollerar Installerade Filer</ValidatingFiles>
+    <NotFound>Kunde Ej Hitta</NotFound>
+    <Complete>Färdig</Complete>
+    <SetupLocalConfig>Sätter Upp Lokal Konfiguration För Denna Server</SetupLocalConfig>
+    <SettingServerAddress>Sätter Serveradress</SettingServerAddress>
+    <CopyConfigFiles>Kopierar Konfigurationsfiler</CopyConfigFiles>
+    <CopyingBinaries>Kopierar Binära Filer</CopyingBinaries>
+    <CopyingSoundSystem>Kopierar Miles Sound System</CopyingSoundSystem>
+    <Created>Skapad</Created>
+    <CreatingDirectory>Skapar Katalog</CreatingDirectory>
+    <CustomServerDir>Kontrollerar Anpassad Serverkatalog</CustomServerDir>
+    <GettingCustomTre>Hämtar Anpassad Tre-lista</GettingCustomTre>
+    <RSSError>Fel Vid Laddning Av RSS</RSSError>
+    <LoadingWait>Laddar Resultat...Var God Vänta</LoadingWait>
+    <Loaded>Laddad</Loaded>
+    <Items>Detaljer</Items>
+    <Connect>Ansluten</Connect>
+    <SelectCharacter>Välj Karaktär</SelectCharacter>
+    <CustomServer>Anpassad Server</CustomServer>
+    <IPAddress>IP Address</IPAddress>
+    <Port>Port</Port>
+    <Add>Add</Add>
+    <Cancel>Cancel</Cancel>
+    <UnableToDisplayRSS>Unable to display RSS</UnableToDisplayRSS>
+    <BlankUsername>Username is blank</BlankUsername>
+    <BlankPassword>Password is blank</BlankPassword>
+    <ClientUpToDate>Your client is up to date</ClientUpToDate>
+    <ClientOutOfDate>Your client needs updating</ClientOutOfDate>
+    <PatchFromSWG>Please patch your installion from the SWG Launchpad</PatchFromSWG>
+    <ServerAvailable>Server is unavailable</ServerAvailable>
+    <ConnectionTimeout>Timed out when connecting to the server</ConnectionTimeout>
+    <Success>Success</Success>
+    <CredentialsIncorrect>Username or password incorrect</CredentialsIncorrect>
+    <ErrorLoading>Error loading</ErrorLoading>
+    <MultipleFiles>Multiple files found for</MultipleFiles>
+    <LauncherNotSupportedOne>This server does not support connecting with this launcher</LauncherNotSupportedOne>
+    <LauncherNotSupportedTwo>Please connect via the normal login screeen or update LoginServer.exe to the latest build</LauncherNotSupportedTwo>
+    <DownloadingUpdateOne>Downloading Update</DownloadingUpdateOne>
+    <DownloadingUpdateTwo>Please Wait</DownloadingUpdateTwo>
+    <RememberDetails>Remember Details</RememberDetails>
+    <AutoLogin>Login Automatically</AutoLogin>
+    <Edit>Edit</Edit>
+    <Delete>Delete</Delete>
+    <ShowDebugMode>Show Debug Mode</ShowDebugMode>
+</Language>
