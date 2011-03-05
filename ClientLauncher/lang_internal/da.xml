@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<SplashText>
-    <CheckingForUpdates>Tjekker for opdateringer</CheckingForUpdates>
-    <LoadingSkins>Indlæser texture</LoadingSkins>
-    <LoadingLanguages>Indlæser sprog</LoadingLanguages>
-    <LoadingServers>Indlæser servere</LoadingServers>
-    <UpdateFound>Opdatering fundet</UpdateFound>
-    <Done>Færdig</Done>
-</SplashText>

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<SplashText>
-    <CheckingForUpdates>Haetaan päivityksiä</CheckingForUpdates>
-    <LoadingSkins>Ladataan teemoja</LoadingSkins>
-    <LoadingLanguages>Ladataan kieliä</LoadingLanguages>
-    <LoadingServers>Ladataan palvelimia</LoadingServers>
-    <UpdateFound>Päivitys löytyi</UpdateFound>
-    <Done>Valmis</Done>
-</SplashText>

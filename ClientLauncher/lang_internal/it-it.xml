@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<SplashText>
-    <CheckingForUpdates>Controllando per aggiornamenti</CheckingForUpdates>
-    <LoadingSkins>Sto caricando le Interfacce</LoadingSkins>
-    <LoadingLanguages>Sto caricando le Lingue</LoadingLanguages>
-    <LoadingServers>Sto caricando i Servers</LoadingServers>
-    <UpdateFound>Trovato aggiornamento</UpdateFound>
-    <Done>Fatto</Done>
-</SplashText>
